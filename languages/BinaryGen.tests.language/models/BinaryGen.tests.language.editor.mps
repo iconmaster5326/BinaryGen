@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:13547420-05cf-4d03-88e7-44e8e40909b9(BinaryGen.sandbox.editor)">
+<model ref="r:13547420-05cf-4d03-88e7-44e8e40909b9(BinaryGen.tests.language.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />

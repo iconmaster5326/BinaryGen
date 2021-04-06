@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:62bdeef3-f7ed-4da6-b532-e4b20e183472(BinaryGen.sandbox.binaryGen)">
+<model ref="r:62bdeef3-f7ed-4da6-b532-e4b20e183472(BinaryGen.tests.language.binaryGen)">
   <persistence version="9" />
   <languages>
     <use id="1d7609cb-4d98-44f8-9e3d-a7762f8b25d5" name="BinaryGen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="92z3" ref="r:77133caf-67c1-46dd-a295-2eb02eae8d8d(BinaryGen.sandbox.structure)" implicit="true" />
+    <import index="92z3" ref="r:77133caf-67c1-46dd-a295-2eb02eae8d8d(BinaryGen.tests.language.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -97,7 +97,7 @@
     <property role="2FQH8w" value="1hwUuFyP5Z/host" />
     <ref role="2QS_ee" to="92z3:4nQhSFMFxhY" resolve="BytePile" />
     <node concept="3C4mvV" id="63VFJA8WqNe" role="2R0Wgr">
-      <ref role="3C4mvL" node="63VFJA8wr0d" resolve="ULEB128" />
+      <ref role="3C4mvL" node="63VFJA8wr0d" resolve="TestComponent" />
       <node concept="3C4mvY" id="63VFJA8Ws23" role="3C4mvW">
         <ref role="3C4mvM" node="63VFJA8wr0f" resolve="x" />
         <node concept="3clFbS" id="63VFJA8WsRO" role="2VODD2">
@@ -110,14 +110,18 @@
       </node>
     </node>
     <node concept="2QT0WF" id="63VFJA93FVb" role="2R0Wgr">
+      <property role="TrG5h" value="loop" />
       <node concept="3CG5vZ" id="63VFJA93G0E" role="2QT0WI">
         <property role="3CG5vK" value="01" />
+        <property role="TrG5h" value="gen1" />
       </node>
       <node concept="2a7m6y" id="63VFJA93G1u" role="2QT0WI">
         <property role="2a7m6B" value="UTF-8" />
         <property role="2a7m6Z" value="true" />
+        <property role="TrG5h" value="gen2" />
       </node>
       <node concept="2R0Ds8" id="63VFJA93G7w" role="2QT0WI">
+        <property role="TrG5h" value="gen3" />
         <node concept="2R0Dsk" id="63VFJA93G7y" role="2R0DsC">
           <node concept="3clFbS" id="63VFJA93G7$" role="2VODD2">
             <node concept="3clFbF" id="63VFJA93Gf_" role="3cqZAp">
@@ -142,12 +146,13 @@
     </node>
   </node>
   <node concept="3CxOMl" id="63VFJA8wr0d">
-    <property role="TrG5h" value="ULEB128" />
+    <property role="TrG5h" value="TestComponent" />
     <node concept="37vLTG" id="63VFJA8wr0f" role="3Cx8Zz">
       <property role="TrG5h" value="x" />
       <node concept="10Oyi0" id="63VFJA8wr0e" role="1tU5fm" />
     </node>
     <node concept="2R0Ds8" id="63VFJA8wr0I" role="2R0Wgs">
+      <property role="TrG5h" value="comp1" />
       <node concept="2R0Dsk" id="63VFJA8x0l7" role="2R0DsC">
         <node concept="3clFbS" id="63VFJA8x0la" role="2VODD2">
           <node concept="3cpWs6" id="63VFJA8x0sJ" role="3cqZAp">
@@ -159,7 +164,7 @@
       </node>
     </node>
     <node concept="2QT0WF" id="63VFJA8RavX" role="2R0Wgs">
-      <property role="TrG5h" value="lol" />
+      <property role="TrG5h" value="comp2" />
       <node concept="2QT0WG" id="63VFJA8RavZ" role="2QT0WH">
         <node concept="3clFbS" id="63VFJA8Raw1" role="2VODD2">
           <node concept="3clFbF" id="63VFJA8RLUp" role="3cqZAp">
@@ -169,6 +174,7 @@
       </node>
       <node concept="10Oyi0" id="63VFJA8Rb7x" role="3$iqVo" />
       <node concept="2R0Ds8" id="63VFJA8RbbN" role="2QT0WI">
+        <property role="TrG5h" value="comp3" />
         <node concept="2R0Dsk" id="63VFJA8RbbO" role="2R0DsC">
           <node concept="3clFbS" id="63VFJA8RbbP" role="2VODD2">
             <node concept="3clFbF" id="63VFJA8Rbk8" role="3cqZAp">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:efa2ad85-b814-4cc5-9e53-262953cd6ec8(BinaryGen.sandbox.behavior)">
+<model ref="r:efa2ad85-b814-4cc5-9e53-262953cd6ec8(BinaryGen.tests.language.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />

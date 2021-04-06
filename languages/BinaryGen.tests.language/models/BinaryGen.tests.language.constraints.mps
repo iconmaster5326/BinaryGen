@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8a3e93a6-0a40-44b7-9267-1b341a53f214(BinaryGen.sandbox.constraints)">
+<model ref="r:8a3e93a6-0a40-44b7-9267-1b341a53f214(BinaryGen.tests.language.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

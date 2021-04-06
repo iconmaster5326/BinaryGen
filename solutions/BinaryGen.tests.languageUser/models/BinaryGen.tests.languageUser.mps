@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fdf131a0-ff85-47a5-8861-c4f33b7469b9(BinaryGen.sandbox.sandbox.sandbox)">
+<model ref="r:fdf131a0-ff85-47a5-8861-c4f33b7469b9(BinaryGen.tests.languageUser)">
   <persistence version="9" />
   <languages>
     <use id="2c16607c-682e-49b8-b590-aeac1dd6dbe2" name="BinaryGen.sandbox" version="0" />
