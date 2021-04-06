@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="BinaryGen.devkit" uuid="3b7e28c8-f62f-453d-b7f1-09e7ed1c7c75">
+  <exported-language name="f298ec4d-9e6f-4f68-bf2b-d051b9d2fa18(BinaryGen.make)" />
+  <exported-solutions>
+    <exported-solution>7cc2688e-d49f-4f3d-99f4-7169a1cbb956(BinaryGen.pluginSolution)</exported-solution>
+    <exported-solution>42096488-8ed2-446f-aa9f-dfb758f84954(BinaryGen.runtime)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+
