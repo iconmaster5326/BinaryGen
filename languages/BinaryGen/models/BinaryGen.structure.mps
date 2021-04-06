@@ -381,7 +381,7 @@
   <node concept="Az7Fb" id="63VFJA8iZ$5">
     <property role="3F6X1D" value="6988371633552226565" />
     <property role="TrG5h" value="Bytes" />
-    <property role="FLfZY" value="([0-9a-fA-F][0-9a-fA-F]|\s)*" />
+    <property role="FLfZY" value="([0-9a-fA-F][0-9a-fA-F]|\\s)*" />
   </node>
   <node concept="1TIwiD" id="63VFJA8iZ$6">
     <property role="EcuMT" value="6988371633552226566" />
