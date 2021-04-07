@@ -73,17 +73,23 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
+        <property id="7832771629084799702" name="name" index="2iUeEt" />
+        <property id="7832771629084799701" name="url" index="2iUeEu" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
         <child id="1359186315025500371" name="xml" index="20twgj" />
+        <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -209,6 +215,15 @@
         <node concept="3o6iSG" id="13dbYsUVqiS" role="3o6s8t">
           <property role="3o6i5n" value="com.intellij.modules.platform" />
         </node>
+      </node>
+      <node concept="3_J27D" id="1no24XNvM0N" role="3s6cr7">
+        <node concept="3Mxwew" id="1no24XNvM0P" role="3MwsjC">
+          <property role="3MwjfP" value="Generate binary files as well as text files with JetBrains MPS." />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="1no24XNvM0R" role="2iVFfd">
+        <property role="2iUeEt" value="iconmaster5326" />
+        <property role="2iUeEu" value="https://github.com/iconmaster5326/BinaryGen" />
       </node>
     </node>
     <node concept="2G$12M" id="13dbYsUVqiH" role="3989C9">

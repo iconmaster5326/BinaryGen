@@ -36,3 +36,8 @@ Sadly, there's no way I know of to make the binary-generation process configurat
 Some bugs in MPS that effect BinaryGen:
 
 * [MPS-33217](https://youtrack.jetbrains.com/issue/MPS-33217)
+
+# Special Thanks
+
+* [coolya](https://github.com/coolya) for helping me with bundling the plugin
+* The [MPS Slack](https://slack-mps.jetbrains.com/) for general support
