@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/BinaryGen.make/BinaryGen.make.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BinaryGen.tests.language/BinaryGen.tests.language.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BinaryGen/BinaryGen.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/BinaryGen.build/BinaryGen.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BinaryGen.pluginSolution/BinaryGen.pluginSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BinaryGen.runtime/BinaryGen.pluginSolution.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BinaryGen.tests.languageUser/BinaryGen.tests.languageUser.msd" folder="" />

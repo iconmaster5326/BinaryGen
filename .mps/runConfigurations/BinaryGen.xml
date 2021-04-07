@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="BinaryGen" type="Build Script" factoryName="Build Script">
+    <myNodePointer>
+      <MyState>
+        <option name="myNodePointer" value="r:d96135fc-5a1b-43b4-b5f4-68af7b7e2570(BinaryGen.build)/1210676545005134985" />
+        <option name="myNodeText" value="BinaryGen.build.BinaryGen" />
+      </MyState>
+    </myNodePointer>
+    <mySettings>
+      <MyState>
+        <option name="myUseOtherAntLocation" value="false" />
+        <option name="myOtherAntLocation" value="" />
+        <option name="myAntOptions" value="generate assemble" />
+      </MyState>
+    </mySettings>
+    <method v="2">
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
