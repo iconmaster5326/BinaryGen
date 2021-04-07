@@ -2,6 +2,10 @@
 
 BinaryGen is a tool for [JetBrains MPS](https://www.jetbrains.com/mps/) to generate binary files as well as text files from your nodes.
 
+# Installing
+
+Check out [the plugin page](https://plugins.jetbrains.com/plugin/16483-binarygen) and install right from your IDE!
+
 # Using
 
 This project defines a new aspect for your languages: `binaryGen`. It's like `textGen`, except this produces binary files instead of text files.
