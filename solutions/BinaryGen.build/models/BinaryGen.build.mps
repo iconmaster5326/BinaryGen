@@ -195,7 +195,7 @@
       </node>
       <node concept="3_J27D" id="13dbYsUVqiL" role="m$_w8">
         <node concept="3Mxwew" id="13dbYsUVqiM" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="1.0.1" />
         </node>
       </node>
       <node concept="m$f5U" id="13dbYsUVqiN" role="m$_yh">
@@ -240,8 +240,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="1no24XNvM0N" role="3s6cr7">
-        <node concept="3Mxwew" id="1no24XNvM0P" role="3MwsjC">
-          <property role="3MwjfP" value="Generate binary files as well as text files with JetBrains MPS." />
+        <node concept="3Mxwew" id="5BrG0K6Yelq" role="3MwsjC">
+          <property role="3MwjfP" value="BinaryGen is a tool for JetBrains MPS to generate binary files as well as text files from your nodes." />
         </node>
       </node>
       <node concept="2iUeEo" id="1no24XNvM0R" role="2iVFfd">
