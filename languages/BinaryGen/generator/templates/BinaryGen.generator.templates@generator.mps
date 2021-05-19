@@ -2,7 +2,7 @@
 <model ref="r:1acede92-49b0-49e3-abba-d79f8716dc38(BinaryGen.generator.templates@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="69b8a993-9b87-4d96-bf0c-3559f4bb0c63" name="jetbrains.mps.lang.slanguage" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
@@ -335,7 +335,7 @@
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
@@ -761,7 +761,9 @@
                           <node concept="1st3f0" id="2wQ3F8Gf_uY" role="2OqNvi" />
                         </node>
                         <node concept="2RRcyG" id="1M8MwyYhB2" role="2OqNvi">
-                          <ref role="2RRcyH" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                          <node concept="chp4Y" id="mb2b92G4as" role="3MHsoP">
+                            <ref role="cht4Q" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                          </node>
                         </node>
                       </node>
                       <node concept="1VAtEI" id="3pZGE0vtfp0" role="2OqNvi" />
@@ -868,7 +870,9 @@
                           <node concept="1st3f0" id="5CWA48I0xz_" role="2OqNvi" />
                         </node>
                         <node concept="2RRcyG" id="5CWA48I0xzA" role="2OqNvi">
-                          <ref role="2RRcyH" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                          <node concept="chp4Y" id="mb2b92G4at" role="3MHsoP">
+                            <ref role="cht4Q" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                          </node>
                         </node>
                       </node>
                       <node concept="1VAtEI" id="5CWA48I0xzI" role="2OqNvi" />
@@ -1007,7 +1011,9 @@
                             <node concept="1st3f0" id="2oT$0EGeN00" role="2OqNvi" />
                           </node>
                           <node concept="2RRcyG" id="2oT$0EGeN01" role="2OqNvi">
-                            <ref role="2RRcyH" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            <node concept="chp4Y" id="mb2b92G4au" role="3MHsoP">
+                              <ref role="cht4Q" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            </node>
                           </node>
                         </node>
                         <node concept="1VAtEI" id="2oT$0EGeN02" role="2OqNvi" />
@@ -1167,7 +1173,9 @@
                             <node concept="1st3f0" id="2oT$0EGjkq4" role="2OqNvi" />
                           </node>
                           <node concept="2RRcyG" id="2oT$0EGjkq5" role="2OqNvi">
-                            <ref role="2RRcyH" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            <node concept="chp4Y" id="mb2b92G4av" role="3MHsoP">
+                              <ref role="cht4Q" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            </node>
                           </node>
                         </node>
                         <node concept="1VAtEI" id="2oT$0EGjkq6" role="2OqNvi" />
@@ -1327,7 +1335,9 @@
                             <node concept="1st3f0" id="2oT$0EGjlwZ" role="2OqNvi" />
                           </node>
                           <node concept="2RRcyG" id="2oT$0EGjlx0" role="2OqNvi">
-                            <ref role="2RRcyH" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            <node concept="chp4Y" id="mb2b92G4aw" role="3MHsoP">
+                              <ref role="cht4Q" to="7ojm:4nQhSFMPCVD" resolve="BinaryGenerator" />
+                            </node>
                           </node>
                         </node>
                         <node concept="1VAtEI" id="2oT$0EGjlx1" role="2OqNvi" />

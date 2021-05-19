@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <import index="7e0v" ref="r:afc499bf-658e-47de-983c-b73f835c87e1(jetbrains.mps.ide.devkit.editor)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -195,7 +196,7 @@
       </node>
       <node concept="3_J27D" id="13dbYsUVqiL" role="m$_w8">
         <node concept="3Mxwew" id="13dbYsUVqiM" role="3MwsjC">
-          <property role="3MwjfP" value="1.0.1" />
+          <property role="3MwjfP" value="1.0.2" />
         </node>
       </node>
       <node concept="m$f5U" id="13dbYsUVqiN" role="m$_yh">
@@ -229,7 +230,7 @@
         <node concept="2pNUuL" id="1no24XNwskR" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="1no24XNwskS" role="2pMdts">
-            <property role="2pMdty" value="203" />
+            <property role="2pMdty" value="211.1" />
           </node>
         </node>
         <node concept="2pNUuL" id="1no24XNwskU" role="2pNNFR">
@@ -581,6 +582,11 @@
         <node concept="1SiIV0" id="13dbYsUVqs_" role="3bR37C">
           <node concept="3bR9La" id="13dbYsUVqsA" role="1SiIV1">
             <ref role="3bR37D" node="13dbYsUVqik" resolve="BinaryGen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="WU2F_v__iT" role="3bR37C">
+          <node concept="3bR9La" id="WU2F_v__i7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6xsKswgwdcs" resolve="jetbrains.mps.ide.devkit.editor" />
           </node>
         </node>
       </node>

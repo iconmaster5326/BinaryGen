@@ -5,11 +5,12 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="69b8a993-9b87-4d96-bf0c-3559f4bb0c63" name="jetbrains.mps.lang.slanguage" version="0" />
+    <devkit ref="3b7e28c8-f62f-453d-b7f1-09e7ed1c7c75(BinaryGen.devkit)" />
   </languages>
   <imports>
     <import index="9oh" ref="r:de82dfab-9448-49ba-813e-2b0579f7fb15(jetbrains.mps.ide.platform.actions)" />
@@ -22,17 +23,13 @@
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
-    <import index="tqbz" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.actions(MPS.IDEA/)" />
-    <import index="iwsx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileEditor(MPS.IDEA/)" />
     <import index="7ojm" ref="r:02003114-8739-418b-ab71-8cb7fd8d822a(BinaryGen.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
-    <import index="sla8" ref="r:e9b03271-b52a-47ee-a82c-3d061109bb59(jetbrains.mps.lang.actions.plugin)" />
     <import index="429u" ref="r:71c3623c-f0e9-43b2-ad67-ae46d7569c4a(BinaryGen.plugin)" />
-    <import index="w88" ref="r:90fa2771-55a5-4174-b12a-f5413c5a876c(jetbrains.mps.ide.devkit.actions)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="7e0v" ref="r:afc499bf-658e-47de-983c-b73f835c87e1(jetbrains.mps.ide.devkit.editor)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" implicit="true" />
   </imports>
@@ -1072,8 +1069,8 @@
           <node concept="3clFbS" id="63VFJA9xt5p" role="1prKM_">
             <node concept="3cpWs6" id="63VFJA9xt5o" role="3cqZAp">
               <node concept="2YIFZM" id="2$SWsiCu1P4" role="3cqZAk">
-                <ref role="37wK5l" to="w88:7POWRVZMxfE" resolve="getBaseNode" />
-                <ref role="1Pybhc" to="w88:7POWRVZMxfC" resolve="ConceptEditorOpenHelper" />
+                <ref role="1Pybhc" to="7e0v:7POWRVZMxfC" resolve="ConceptEditorOpenHelper" />
+                <ref role="37wK5l" to="7e0v:7POWRVZMxfE" resolve="getBaseNode" />
                 <node concept="1beSmn" id="2$SWsiCu1P5" role="37wK5m" />
               </node>
             </node>
@@ -1096,8 +1093,8 @@
       </node>
     </node>
     <node concept="2vPdvu" id="63VFJA9pBdZ" role="2E2X74">
-      <node concept="2vPdvi" id="63VFJA9pBFr" role="2vPdvg">
-        <ref role="2vPdvl" to="w88:7POWRVZLtO0" resolve="Textgen" />
+      <node concept="2vPdvi" id="WU2F_vzx8D" role="2vPdvg">
+        <ref role="2vPdvl" to="7e0v:7POWRVZLtO0" resolve="Textgen" />
       </node>
       <node concept="2vPdvi" id="63VFJA9pBFx" role="2vPdvg">
         <ref role="2vPdvl" node="63VFJA9iSWl" resolve="Binarygen" />

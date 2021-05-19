@@ -2,7 +2,7 @@
 <model ref="r:fdf131a0-ff85-47a5-8861-c4f33b7469b9(BinaryGen.tests.languageUser)">
   <persistence version="9" />
   <languages>
-    <use id="2c16607c-682e-49b8-b590-aeac1dd6dbe2" name="BinaryGen.sandbox" version="0" />
+    <use id="2c16607c-682e-49b8-b590-aeac1dd6dbe2" name="BinaryGen.tests.language" version="0" />
     <devkit ref="3b7e28c8-f62f-453d-b7f1-09e7ed1c7c75(BinaryGen.devkit)" />
   </languages>
   <imports />
@@ -12,8 +12,8 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="2c16607c-682e-49b8-b590-aeac1dd6dbe2" name="BinaryGen.sandbox">
-      <concept id="5041295494990402686" name="BinaryGen.sandbox.structure.BytePile" flags="ng" index="2Rm5fO">
+    <language id="2c16607c-682e-49b8-b590-aeac1dd6dbe2" name="BinaryGen.tests.language">
+      <concept id="5041295494990402686" name="BinaryGen.tests.language.structure.BytePile" flags="ng" index="2Rm5fO">
         <property id="5041295494990764405" name="version" index="2RhtVZ" />
       </concept>
     </language>

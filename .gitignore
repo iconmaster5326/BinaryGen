@@ -15,6 +15,7 @@ test_gen.caches
 TEST-*.xml
 junit*.properties
 build/
+.mps-caches/
 
 # generated build files
 build.xml
