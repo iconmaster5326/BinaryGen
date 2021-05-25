@@ -196,7 +196,7 @@
       </node>
       <node concept="3_J27D" id="13dbYsUVqiL" role="m$_w8">
         <node concept="3Mxwew" id="13dbYsUVqiM" role="3MwsjC">
-          <property role="3MwjfP" value="1.0.2" />
+          <property role="3MwjfP" value="1.0.3" />
         </node>
       </node>
       <node concept="m$f5U" id="13dbYsUVqiN" role="m$_yh">
@@ -265,11 +265,6 @@
                 <property role="2Ry0Am" value="BinaryGen.mpl" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="13dbYsUVqj1" role="3bR37C">
-          <node concept="3bR9La" id="13dbYsUVqj2" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:6ifcnI8$2j3" resolve="jetbrains.mps.vcs.mergehints" />
           </node>
         </node>
         <node concept="1SiIV0" id="13dbYsUVqj3" role="3bR37C">
@@ -513,16 +508,6 @@
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="13dbYsUVqjY" role="3bR37C">
-          <node concept="3bR9La" id="13dbYsUVqjZ" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:5sovPIfS$nd" resolve="jetbrains.mps.ide.mpsdevkit" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="13dbYsUVqk0" role="3bR37C">
-          <node concept="3bR9La" id="13dbYsUVqk1" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4j" resolve="jetbrains.mps.lang.actions" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="13dbYsUVqk2" role="3bR37C">
           <node concept="3bR9La" id="13dbYsUVqk3" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
@@ -531,11 +516,6 @@
         <node concept="1SiIV0" id="13dbYsUVqk4" role="3bR37C">
           <node concept="3bR9La" id="13dbYsUVqk5" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="13dbYsUVqk6" role="3bR37C">
-          <node concept="3bR9La" id="13dbYsUVqk7" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
           </node>
         </node>
         <node concept="1SiIV0" id="13dbYsUVqk8" role="3bR37C">
@@ -671,6 +651,53 @@
         </node>
         <node concept="3LEDTM" id="13dbYsUVqsP" role="3LEDUa">
           <ref role="3LEDTN" node="13dbYsUVqiA" resolve="BinaryGen.runtime" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6jVKJxguNhl" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="BinaryGen.build" />
+        <property role="3LESm3" value="b62df70e-3e70-4b00-a27d-a1ee50acf941" />
+        <node concept="55IIr" id="6jVKJxguNho" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6jVKJxguNjQ" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6jVKJxguNjV" role="2Ry0An">
+              <property role="2Ry0Am" value="BinaryGen.build" />
+              <node concept="2Ry0Ak" id="6jVKJxguNk0" role="2Ry0An">
+                <property role="2Ry0Am" value="BinaryGen.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6jVKJxguNkn" role="3bR37C">
+          <node concept="3bR9La" id="6jVKJxguNko" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:6xsKswgwdcs" resolve="jetbrains.mps.ide.devkit.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6jVKJxguNkp" role="3bR37C">
+          <node concept="3bR9La" id="6jVKJxguNkq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="6jVKJxguNkv" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="6jVKJxguNkw" role="1HemKq">
+            <node concept="55IIr" id="6jVKJxguNkr" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6jVKJxguNks" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6jVKJxguNkt" role="2Ry0An">
+                  <property role="2Ry0Am" value="BinaryGen.build" />
+                  <node concept="2Ry0Ak" id="6jVKJxguNku" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6jVKJxguNkx" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
