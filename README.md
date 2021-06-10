@@ -1,5 +1,7 @@
 # BinaryGen
 
+[![open in skadi cloud](https://skadi.cloud/assets/skadi-badge.svg)](https://skadi.cloud/open#https://github.com/iconmaster5326/BinaryGen.git)
+
 BinaryGen is a tool for [JetBrains MPS](https://www.jetbrains.com/mps/) to generate binary files as well as text files from your nodes.
 
 # Installing
